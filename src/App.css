@@ -1,5 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  max-width: 750px;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +45,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.experience-section {
+  background-color: bisque;
+  margin: 25px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
 }
